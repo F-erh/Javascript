@@ -1,7 +1,7 @@
 //some - verifica se tem algum do que estamos pedindo
 
 const nomes = ["fer", "cascata", "cacau"];
-nomes.some(nomes => nomes === "fer");
+nomes.some(nomes => nomes === "a");
 //true or false
 
 //every - verifica se todos passam na condiçao
@@ -18,4 +18,3 @@ if (nomes.every(nome => nome.idade >= 30)){
 }else{
     console.log('opa, n é 18+')
     };
-    
