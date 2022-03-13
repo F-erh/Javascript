@@ -1,0 +1,10 @@
+const nome = prompt('nome')
+document.body.innerHTML += `seu nome é: ${nome} <br />`;
+document.body.innerHTML += `seu nome tem ${nome.length} letras <br />`;
+document.body.innerHTML += `a segunda letra é ${nome[1]}<br />`;
+document.body.innerHTML += `primeiro indice da letra a é ${nome.indexOf('a')}<br />`;
+document.body.innerHTML += `ultimo indice da letra a é ${nome.lastIndexOf('a')}<br />`;
+document.body.innerHTML += `as ultimas trẽs letras são ${nome.slice(-3, nome.length)}<br />`;
+document.body.innerHTML += `as palavras do seu nome são ${nome.split('')}<br />`;
+document.body.innerHTML += `letras maiuscula ${nome.toUpperCase()}<br />`;
+document.body.innerHTML += `letras minusculas ${nome.toLowerCase()}<br />`;
